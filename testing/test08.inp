@@ -1,0 +1,26 @@
+# Set up a game, block, move and then clear. Also tests for uppercase commands
+java -ea ataxx.Main
+
+BlOCk e3
+SEed 123
+g1-f1
+BLocK g2
+block g3
+block e1
+block e2
+clear
+block f1
+BLOCK d4
+g1-g2
+a1-b2
+dump
+@<===
+@<  r X - - - X b
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - X - - -
+@<  - - - - - - -
+@<  - b - - - - r
+@<  b X - - - X r
+@<===
+quit

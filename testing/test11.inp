@@ -1,0 +1,20 @@
+# Test from lab
+java -ea ataxx.Main
+g1-f3
+g7-f5
+f3-f4
+a1-b2
+f3-e3
+b2-c3
+e3-d3
+dump
+@<===
+@<  r - - - - - -
+@<  - - - - - - -
+@<  - - - - - r -
+@<  - - - - - r -
+@<  - - r r r r -
+@<  - b - - - - -
+@<  b - - - - - -
+@<===
+quit

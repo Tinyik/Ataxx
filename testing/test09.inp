@@ -1,0 +1,25 @@
+# Set up a position and continue a game that should be draw
+
+java -ea ataxx.Main
+block f2
+block f3
+block g2
+block f1
+block g2
+block g3
+block e1
+block e2
+block e3
+dump
+@<===
+@<  r X X - X X b
+@<  X X X - X X X
+@<  X X X - X X X
+@<  - - - - - - -
+@<  X X X - X X X
+@<  X X X - X X X
+@<  b X X - X X r
+@<===
+start
+@<Draw.
+quit
